@@ -1,4 +1,6 @@
-## Usage
+# Usage
+
+## Install
 Clone the repo.
 
 Go to the directory where this repo is saved and type "npm install" in the terminal.
@@ -6,3 +8,16 @@ Go to the directory where this repo is saved and type "npm install" in the termi
 After npm finishes installing the dependencies type "npm run test" to test the module.
 
 Type "npm run watch" to automate the testing.
+
+## deck-of-cards
+deck-of-cards.js has 3 methods. 
+
+count() : count returns the number of cards in the deck.
+
+shuffle(): shuffle shuffles the cards in a random order and returns a list of the shuffled cards.
+
+deal(): deal removes the top card and returns it.
+
+## Tests
+
+The tests check the functionality of each method in a new deck. 
