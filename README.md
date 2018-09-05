@@ -17,6 +17,7 @@ deck-of-cards.js has 3 methods.
 count() : count returns the number of cards in the deck.
 
 Example:
+
 ''' 
 const Deck = require('./deck-of-cards');
 
