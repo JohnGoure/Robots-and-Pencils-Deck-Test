@@ -18,18 +18,24 @@ count() : count returns the number of cards in the deck.
 
 Example:
 
-''' 
+``` 
 const Deck = require('./deck-of-cards');
 
 let newDeck = new Deck();
 console.log(newDeck.count()) // 52
-'''
+```
 
 ### shuffle()
 shuffle(): shuffle shuffles the cards in a random order and returns a list of the shuffled cards.
 
+```
+```
+
 ### deal()
 deal(): deal removes the top card and returns it.
+
+```
+```
 
 ## Tests
 
