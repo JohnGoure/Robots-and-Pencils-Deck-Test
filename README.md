@@ -29,12 +29,20 @@ console.log(newDeck.count()) // 52
 shuffle(): shuffle shuffles the cards in a random order and returns a list of the shuffled cards.
 
 ```
+const Deck = require('./deck-of-cards');
+
+let newDeck = new Deck();
+console.log(newDeck.shuffle())
 ```
 
 ### deal()
 deal(): deal removes the top card and returns it.
 
 ```
+const Deck = require('./deck-of-cards');
+
+let newDeck = new Deck();
+console.log(newDeck.deal())
 ```
 
 ## Tests
